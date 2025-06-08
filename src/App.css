@@ -1,0 +1,84 @@
+/* Importing Syncfusion Material Theme */
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+
+/* Layout Basics */
+.sidebar {
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 7px 30px 0px;
+  background-color: #ffffff;
+}
+
+.navbar,
+.menu-link {
+  z-index: 1000;
+}
+
+/* Responsive Sidebar */
+@media screen and (max-width: 800px) {
+  .sidebar {
+    z-index: 9999;
+    position: absolute;
+    width: 80%;
+  }
+}
+
+/* Syncfusion Popups */
+.e-dlg-center-center,
+.e-quick-popup-wrapper.e-device {
+  z-index: 10000 !important;
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(180, 180, 180);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Color Picker Preview Box */
+#color-preview {
+  background: transparent url('https://ej2.syncfusion.com/react/demos/src/color-picker/images/pen.png') no-repeat;
+  height: 80px;
+  margin: 10px 0;
+  min-width: 300px;
+  max-width: 600px;
+  background-color: #4caf50; /* green preview */
+}
+
+/* Remove input borders for a cleaner look */
+.e-input-group:not(.e-float-icon-left),
+.e-input-group.e-control-wrapper:not(.e-float-icon-left) {
+  border: none;
+}
+
+/* Theme Button */
+.settings-fab {
+  background-color: #4f46e5;
+  color: white;
+  border-radius: 9999px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.settings-fab:hover {
+  background-color: #4338ca;
+}
+
+/* Transition for smooth theme change */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode background */
+.dark {
+  background-color: #1e1e2f;
+  color: #f1f1f1;
+}
