@@ -19,9 +19,8 @@ A modern, responsive dashboard application built with React. This project showca
 
 - React
 - Tailwind CSS
-- Recharts (or your charting library)
 - React Icons
-- JavaScript (ES6+)
+- JavaScript 
 
 ---
 
@@ -31,3 +30,41 @@ A modern, responsive dashboard application built with React. This project showca
 
    ```bash
    git clone https://github.com/riasharma17/Custom-Dashboard.git
+   Navigate to the project directory:
+
+bash
+Copy
+Edit
+cd Custom-Dashboard
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
+npm start
+Open your browser at http://localhost:3000
+
+Usage
+Use the sidebar to navigate different dashboard sections.
+
+Toggle between light and dark modes using the theme switcher.
+
+View dynamic charts and update data as needed.
+
+Customize colors and layout by editing the config files.
+
+Contribution
+Feel free to fork the project and create pull requests. For major changes, please open an issue first to discuss what you would like to change.
+
+License
+This project is licensed under the MIT License.
+
+Contact
+Riya Sharma - riasharma17@gmail.com
+GitHub: https://github.com/riasharma17
